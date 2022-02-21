@@ -41,9 +41,12 @@ body{
 }
 
 .content-parent{
+    width: 90%;
+    position: relative;
+    left: 5%;
     height: 400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -64,6 +67,7 @@ body{
 }
 
 .bc{
+    width: 100%;
     font-size: 35px;
     font-weight: 800;
     position: absolute;
@@ -77,8 +81,4 @@ body{
     position: absolute;
     top: 150px;
     text-align: center;
-}
-.d{
-    /* display: none; */
-    visibility: hidden;
 }

@@ -27,7 +27,7 @@ export class BC2 extends React.Component {
         return (
             <>
                 <div className="bc">
-                    This is created using Functional component
+                    This is created using class component
                 </div>
                 <M />
                 <I />
