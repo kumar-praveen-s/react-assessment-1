@@ -45,9 +45,9 @@ body{
     position: relative;
     left: 5%;
     height: 400px;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
 
 .box{
@@ -55,15 +55,20 @@ body{
     height: 300px;
     border: 1px inset red;
     border-radius: 40px;
-    position: relative;
+    position: absolute;
+    top: 50px;
 }
 
 .box1{
     background-color: cadetblue;
+    position: absolute;
+    left: 0;
 }
 
 .box2{
     background-color: coral;
+    position: absolute;
+    right: 0;
 }
 
 .bc{
